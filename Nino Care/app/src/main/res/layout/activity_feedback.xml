@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".Feedback">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@color/primary"
+        android:textColor="#e3e3e3"
+        android:textStyle="bold|italic"
+        android:text="Add Feedback" />
+
+    <EditText
+        android:id="@+id/complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="15dp"
+        android:hint="Type your feedback here.."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DFDBDB"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="#e3e3e3"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="send" />
+
+    <ListView
+        android:id="@+id/lvcomplaints"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

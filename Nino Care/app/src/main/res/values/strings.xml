@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Nino Care</string>
+    <string name="title_activity_main_home">MainHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nino care</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Manage babies</string>
+    <string name="menu_gallery">View Videos</string>
+    <string name="menu_slideshow">View Notifications</string>
+    <string name="doc">View Doctors</string>
+    <string name="asha">View Ashsaworkers</string>
+    <string name="appointment">View Appointment</string>
+    <string name="prec">View PreCautions</string>
+    <string name="vccine">vaccine Request</string>
+    <string name="feedback">Add feedback</string>
+    <string name="logout">Logout</string>
+</resources>
